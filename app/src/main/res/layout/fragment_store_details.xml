@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UI.StoreDetailsFragment">
+
+        <ImageView
+            android:id="@+id/company_logo"
+            android:layout_width="120dp"
+            android:layout_height="@dimen/store_details_logo_height"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="32dp"
+            tools:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/street_textview"
+            style="@style/StoreDetailsTextViews"
+            android:layout_below="@id/company_logo"
+            tools:text="@string/street_example" />
+
+        <TextView
+            android:id="@+id/city_state_zip_textview"
+            style="@style/StoreDetailsTextViews"
+            android:layout_below="@id/street_textview"
+            tools:text="@string/city_state_zip_example" />
+
+        <TextView
+            android:id="@+id/coordinates_textview"
+            style="@style/StoreDetailsTextViews"
+            android:layout_below="@id/city_state_zip_textview"
+            tools:text="@string/coordinates_example" />
+
+        <TextView
+            android:id="@+id/phone_number_textview"
+            style="@style/StoreDetailsTextViews"
+            android:layout_below="@id/coordinates_textview"
+            android:layout_marginTop="32dp"
+            tools:text="@string/phone_number_example" />
+
+        <TextView
+            android:id="@+id/store_id_textview"
+            style="@style/StoreDetailsTextViews"
+            android:layout_below="@id/phone_number_textview"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp"
+            tools:text="@string/store_id_example" />
+
+    </RelativeLayout>
+</ScrollView>

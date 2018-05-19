@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BottleRocketApp</string>
+
+    <string name="short_example_address">7801 Citrus Park Town Center Mall\nTampa</string>
+    <string name="street_example">7801 Citrus Park Town Center Mall</string>
+    <string name="city_state_zip_example">Tampa, FL, 33625</string>
+    <string name="coordinates_example">-82.583401, 28.078152</string>
+    <string name="phone_number_example">Call: 813-926-7302</string>
+    <string name="store_id_example">Store ID: 1238</string>
+
+</resources>

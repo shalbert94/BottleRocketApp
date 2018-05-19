@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_stores_height">80dp</dimen>
+    <dimen name="list_item_stores_logo_width">@dimen/list_item_stores_height</dimen>
+
+    <dimen name="store_details_logo_height">120dp</dimen>
+</resources>
